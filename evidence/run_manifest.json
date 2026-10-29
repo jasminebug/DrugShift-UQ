@@ -1,0 +1,66 @@
+{
+  "config": {
+    "dataset": "GDSC2",
+    "zenodo_record": 21807175,
+    "zenodo_file": "GDSC2.zip",
+    "zenodo_md5": "49dc16929c6baa2b5d75c508429fa11f",
+    "target": "LN_IC50_curvecurator",
+    "profile": "balanced",
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "regimes": [
+      "pair",
+      "cold_cell",
+      "cold_drug",
+      "cold_both"
+    ],
+    "ablation_regimes": [
+      "cold_drug",
+      "cold_both"
+    ],
+    "ablation_seed": 42,
+    "ablations": [
+      "no_gate",
+      "no_bilinear",
+      "no_cell",
+      "no_drug",
+      "early_fusion"
+    ],
+    "members": 2,
+    "epochs": 24,
+    "patience": 6,
+    "batch_size": 1024,
+    "genes": 256,
+    "drug_bits": 512,
+    "baseline_rows": 18000,
+    "rf_trees": 80,
+    "alpha": 0.1,
+    "workers": 2,
+    "device": "auto",
+    "force_recompute": false,
+    "run_tests": true
+  },
+  "data_sha256": {
+    "responses.csv": "6096828af5ffcbc245671177e121345d51a35256ef94a8dfc3a3cd5902a0e799",
+    "cell_features.csv": "54b128181968c02602f3b97aba32e939341f2ba8d974b851f6aae25b8b0894b2",
+    "drug_features.csv": "21507e39b7323609da1baaa0a066f3704ee3201f2bec7c84f0729cc491b42f6d"
+  },
+  "code_sha256": {
+    "src/drugshift/__init__.py": "bd31b20493688e7184123816ea2a6b424602be6fc7d948e1cf1a12407744896c",
+    "src/drugshift/data.py": "50a820d11dcb95aad67c77149025209201fc65e03df67cdf57dbec02f7601aef",
+    "src/drugshift/experiment.py": "66a967544ac35e4298e95ea95e92f839f14bb26f24aa2e895c778c861eec0f5b",
+    "src/drugshift/metrics.py": "3959fc75cf0136ef3118a4c75efcb00cdcc9cc3640f996181521c78a2ac04785",
+    "src/drugshift/models.py": "486f0f53c09d8fd4f5888d4f10b769d9358bbc29cfe2bb7a95620e5ddea77580",
+    "src/drugshift/pipeline.py": "421517b244f7a4e55523d7466112178dce6d17d2b19890e07dd23ed285a8909e",
+    "src/drugshift/prepare.py": "8919d1422c87498837162af4746746864274d73b3329189c3cdd444cdf5d4fef",
+    "src/drugshift/reporting.py": "2de7802910228ee8d3a2bc21bc6df4902193de0f16320ec61121506e164cd35f",
+    "src/drugshift/splits.py": "ba38fdbf034b7ab6934296ba8afb3a35ea8bd7b1af18ecb28c09091912d6d6fd"
+  },
+  "run_id": "9734e917b726",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "started_utc": "2026-10-29T05:16:10.419679+00:00"
+}

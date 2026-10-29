@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "original_run_id": "9734e917b726",
+  "original_run_manifest_sha256": "a639416e79e42893af3476b4d7c15f392d0add34f856f4a6ebe097892b64c989",
+  "original_job_metrics_sha256": {
+    "pair_42": "46bfdb794290c01fb2d19a9a64cdeedd10c654c059b526f8688360d095048bef",
+    "pair_123": "87b284d826aab35510923ebb69422e276382c1ba9ee0c348e7c589e99f42782d",
+    "pair_2026": "c921b7bc061a4cbc0eb08196196dbbe76a47eae0070b50a98039989ec09eaa13",
+    "cold_cell_42": "4767f7e8f807790857cde1574ce17f520036bd0e625eaf7f04daf9fcec8dc588",
+    "cold_cell_123": "e2c622a3929d4bd02d6f69b45a928aaeaf59e6b82116ccac4bee2de4374a7862",
+    "cold_cell_2026": "d961f9749440fa2b8b101cab7f1a4d415feec9591206c50de5f5bead33ad9761",
+    "cold_drug_42": "3eadda34d254e2c8c2a8746eff9745f98ce695604d24c0645e575ed17324c479",
+    "cold_drug_123": "c50a9bb5c99ed4bb79d62230514a8a49accd363629eb90b560ef941c5a7cc4dd",
+    "cold_drug_2026": "ee5bc5b6af84f5de26fd303f2f74374071437ad78eebffa4469031f78c06e07d",
+    "cold_both_42": "df41490a64a5fe4857e5a747d7e98e7f0ad8b415dfca42395019242d83d80209",
+    "cold_both_123": "ad89072ffdf0574b424b891af4466ad2317f16a1bc57ad57a904cd27ace4690f",
+    "cold_both_2026": "ffe4b6c812bb54141e34503ce1293cd7fd0d69b6cbfc3b8dda7a64343c4e29e8"
+  },
+  "addon_sha256": "6fa7668c6a7e1b1246edbf8ab8ff0054b3b98b7800f502cbeb1f89c2a7eb0511",
+  "supplementary_baselines": 36,
+  "supplementary_ablations": 30,
+  "completed_utc": "2026-10-29T06:53:18.920325+00:00",
+  "warnings": [
+    "Evaluation is preclinical cell-line screening only.",
+    "Seed variation does not imply independent replication.",
+    "Cluster bootstrap uses one-axis groups, not simultaneous cell/drug clustering.",
+    "Original model remained unchanged; no post-hoc model or hyperparameter retuning."
+  ]
+}

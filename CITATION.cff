@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the DrugShift-UQ research project and the original GDSC2 dataset."
+title: "DrugShift-UQ: Cross-Gated Drug Response Prediction and an Audit of Uncertainty under Unseen-Drug and Unseen-Cell-Line Shifts"
+type: software
+authors:
+  - family-names: Kaur
+    given-names: Jasmine
+  - family-names: Raj
+    given-names: Alok
+    orcid: "https://orcid.org/0009-0003-7870-7065"
+  - family-names: Gupta
+    given-names: Gaurav
+    orcid: "https://orcid.org/0000-0002-5192-4428"
+version: "1.0.0"
+release-date: 2026-10-29
+license: MIT
+keywords:
+  - drug response prediction
+  - GDSC2
+  - uncertainty quantification
+  - domain shift
+  - reproducibility
